@@ -1,0 +1,30 @@
+created: 20171206202625540
+creator: Tobias Beer
+modified: 20171206202741328
+modifier: Tobias Beer
+title: base64-Examples
+type: text/vnd.tiddlywiki
+
+The below examples all make use of <<source $:/templates/text>>
+
+!! Encode Operand
+
+<<` """{{{ [base64[foo]] || $:/templates/text }}}""">>
+
+!! Decode Operand
+
+<<` """{{{ [base64:decode[Zm9v]] || $:/templates/text }}}""">>
+
+!! Encode Title(s)
+
+<<` """{{{ [[foo]base64[]] || $:/templates/text }}}""">>
+
+<<` """{{{ foo bar +[base64[]] || $:/templates/text }}}""">>
+
+<<` """{{{ [[foo]] [[bar]] +[base64[]] || $:/templates/text }}}""">>
+
+!! Decode Title[s]
+
+<<` """{{{ [[Zm9v]base64:decode[]] || $:/templates/text }}}""">>
+
+<<` """{{{ [[Zm9v]] [[YmFy]] +[base64:decode[]] || $:/templates/text }}}""">>

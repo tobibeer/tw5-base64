@@ -1,0 +1,13 @@
+created: 20171206202753528
+creator: Tobias Beer
+modified: 20171206202755165
+modifier: Tobias Beer
+title: base64-Install
+type: text/vnd.tiddlywiki
+
+<<plugin-install base64>>
+
+!! Version History
+
+; 0.5.0 / 2017-12-06
+: initial version

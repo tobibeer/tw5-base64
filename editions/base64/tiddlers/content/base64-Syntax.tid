@@ -1,0 +1,40 @@
+created: 20171206200130135
+creator: Tobias Beer
+modified: 20171206204519713
+modifier: Tobias Beer
+title: base64-Syntax
+type: text/vnd.tiddlywiki
+
+Simply use the following to...
+
+; Encode
+: the operand:<div>
+
+```
+[base64[someText]]
+```
+
+//This is a set creating operation, i.e. any input titles are ignored / discarded.//
+</div>
+: the input title(s):<div>
+
+```
+[[some text]base64[]]
+```
+</div>
+
+; Decode
+: the operand:<div>
+
+```
+[base64:decode[some base64 string]]
+```
+
+//This is a set creating operation, i.e. any input titles are ignored / discarded.//
+</div>
+: the input title(s):<div>
+
+```
+[[some base64 string]base64:decode[]]
+```
+</div>

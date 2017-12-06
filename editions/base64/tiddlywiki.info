@@ -1,0 +1,21 @@
+{
+    "description": "tobibeer/base64 plugin",
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+        "tiddlywiki/filesystem",
+        "tobibeer/base64"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+    "includeWikis": [
+        "../../../defaults/editions/defaults"
+    ],
+    "build": {
+        "index": [
+            "--output","../../",
+            "--rendertiddler","$:/plugins/tiddlywiki/tiddlyweb/save/offline","index.html","text/plain"
+        ]
+    }
+}

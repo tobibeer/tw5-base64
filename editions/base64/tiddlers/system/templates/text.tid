@@ -1,0 +1,3 @@
+title: $:/templates/text
+
+<$text text=<<currentTiddler>>/>
